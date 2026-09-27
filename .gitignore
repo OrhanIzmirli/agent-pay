@@ -12,3 +12,5 @@
 
 # Each project folder has its own .gitignore for its internal exclusions
 # (env files, wallets/keypairs, build artifacts, caches, demo state).
+config.bat
+node_modules

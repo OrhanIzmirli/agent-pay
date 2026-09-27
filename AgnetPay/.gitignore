@@ -14,3 +14,4 @@ agent_pay_vault/.anchor/
 __pycache__/
 *.pyc
 .DS_Store
+.claude/
