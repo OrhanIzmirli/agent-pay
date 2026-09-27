@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo
+wallet.json
+service_wallet.json
+id.json
+*keypair*.json
+*.keypair
+agent_pay_vault/target/
+agent_pay_vault/.anchor/
+__pycache__/
+*.pyc
+.DS_Store

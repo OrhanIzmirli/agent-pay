@@ -1,0 +1,14 @@
+# This repo only tracks the Agent Pay monorepo folders and root docs.
+# Everything else on this machine's Desktop is deliberately excluded:
+# ignore everything by default, then explicitly allow the project paths.
+/*
+
+!/AgnetPay/
+!/agentpay_backend/
+!/agent_pay_vault/
+!/README.md
+!/LICENSE
+!/.gitignore
+
+# Each project folder has its own .gitignore for its internal exclusions
+# (env files, wallets/keypairs, build artifacts, caches, demo state).

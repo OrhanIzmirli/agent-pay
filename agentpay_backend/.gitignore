@@ -1,0 +1,36 @@
+# --- Private keys: NEVER commit or share these ---
+wallet.json
+service_wallet.json
+*.keypair.json
+*.keypair
+
+# --- Secrets / local config ---
+.env
+.env.*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Build artefacts ---
+*.zip
+
+# --- Demo state (regenerated at runtime) ---
+policies.json
+escrow_ledger.json
+*.corrupt.json
+*.tmp
+*.bak-*
+
+satellite_cache.json

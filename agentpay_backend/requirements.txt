@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+solana
+solders
+httpx
+anthropic
+pytest
